@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+/* font-family: 'Permanent Marker', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Rubik Moonrocks', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+    /* border: 4px solid red; */
+
+}
+
+body{
+    background-image: url(images/bg-01.jpg);
+    
+    background-size: cover;
+    color: #272727;
+    height: 100vh;
+    flex-wrap: wrap;
+
+
+    
+}
+
+header{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem 6rem;    
+    
+}
+header img{
+    width: 50%;
+    height: 400px;
+    flex-wrap: wrap;
+    
+}
+
+
+.heading{
+    font-family: 'Permanent Marker', cursive;
+    background-color: #ffc600;
+    font-size: 1.7rem;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 4rem #d80404;
+    
+    
+    
+
+}
+
+
+
+
+.navbar{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #272727;
+    
+
+    
+    
+    
+}
+.navbar-content{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+   
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    width: 100%;
+    margin: auto;
+        padding: 30px;
+    margin-top: -80px;
+    font-size: 1.5rem;
+    font-family: 'Rubik Beastly';
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem 4rem;
+    /* border: 2px solid red; */
+
+}
+.döner,.icecek,.paket,.müzik,.rezervasyon{
+    
+    background-color: #ffc600;
+    padding: 20px 50px;
+}
+
+.secenek-container{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+.secenek-box{
+    /* border: 2px solid red; */
+    flex: 1 1 16rem;
+    margin-left: 4px;
+    text-align: center;
+    
+}
+
+.secenek-box img{
+    width: 100px;
+    height: 60px;
+}
+
+.secenek-box a{
+    width: 100px;
+    height: 50px;
+}
+
+.font-weight{
+    font-size: 1.5rem;
+
+    
+}
+
+.döner-özellik{
+    text-align: center;
+    display: flex;
+   background-color: #fff;
+   width: 80%;
+   height: 350px;
+   gap: 2rem;
+    
+
+}
+
+.döner-özellik img{
+    width: 300px;
+    margin-right: 700px;
+    display: flex;
+    
+
+    
+}
+.döner-özellik p{
+    flex-wrap: wrap;
+    /* display: flex; */
+    margin-top: -100px;
+    margin-left: 200px;
+}
+button{
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 14px;
+    box-shadow: 0 0 1rem #d80404;
+    background-color: #ffc600;
+    font-size: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+button:hover{
+    text-decoration: underline;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
