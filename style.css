@@ -19,7 +19,9 @@ body{
     background-size: cover;
     color: #272727;
     height: 100vh;
+    width: 100%;
     flex-wrap: wrap;
+    background-attachment: fixed;
 
 
     
@@ -69,9 +71,7 @@ header h1{
     
     
 }
-.navbar-content{
-    
-}
+
 
    
 .navbar ul{
@@ -79,12 +79,10 @@ header h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px;
     width: 100%;
-    margin: auto;
     padding: 30px;
     margin-top: -80px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'Rubik Beastly';
     flex-wrap: wrap;
     gap: 2rem 2rem;
@@ -92,35 +90,70 @@ header h1{
 }
 
 .döner{
-    
     background-color: #ffc600;
-    padding: 15px 125px 15px 5px;
     display: flex;
+    width: 250px;
+    height: 47px;
 }
+
 
 
 .icecek{
-
+    display: flex;
     background-color: #ffc600;
-    padding: 15px 80px 15px 5px;
+    width: 250px;
+    height: 47px;
 }
 .paket{
+    display: flex;
 
     background-color: #ffc600;
-    padding: 15px 73px 15px 5px;
+    width: 250px;
+    height: 47px;
 
 }
 .müzik{
+    display: flex;
 
     background-color: #ffc600;
-    padding: 15px 135px 15px 5px;
+    width: 250px;
+    height: 47px;
 
 }
 .rezervasyon{
+    display: flex;
     background-color: #ffc600;
-    padding: 15px 20px 15px 5px;
+    width: 250px;
+    height: 47px;
 
 }
+
+.döner a{
+    width: 100%;
+    margin: auto;
+    margin-left: 80px;
+}
+.icecek a{
+    width: 100%;
+    margin: auto;
+    margin-left: 70px;
+}
+.paket a{
+    width: 100%;
+    margin: auto;
+    margin-left: 70px;
+}
+.müzik a{
+    width: 100%;
+    margin: auto;
+    margin-left: 90px;
+}
+.rezervasyon a{
+    width: 100%;
+    margin: auto;
+    margin-left: 40px;
+}
+
 
 .secenek-container{
     margin-top: 10px;
@@ -167,8 +200,8 @@ header h1{
     text-align: center;
     flex-wrap: wrap;
    background-color: #fff;
-   width: 80%;
-   margin-left: 10%;
+   width: 90%;
+   margin-left: 5%;
    height: 350px;
    gap: 2rem;
     
@@ -189,6 +222,7 @@ header h1{
     margin-left: 200px;
 }
 button{
+    
     border-radius: 10px;
     border-style: none;
     margin-top: 20px;
@@ -200,8 +234,13 @@ button{
     font-family: 'Permanent Marker', cursive;
     
 }
+
+button a{
+    text-decoration: none;
+}
 button:hover{
     text-decoration: underline;
+    
     
 
 }
