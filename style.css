@@ -28,6 +28,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 header img {
   width: 700px;
@@ -176,7 +177,7 @@ header h1 {
   background-color: #fff;
   width: 90%;
   margin-left: 5%;
-  height: 500px;
+  height: 550px;
   gap: 2rem;
 }
 
@@ -193,10 +194,9 @@ header h1 {
 button {
   border-radius: 10px;
   border-style: none;
-  margin-top: 20px;
-  margin-left: 50px;
+  margin-top: 60px;
   padding: 14px;
-  box-shadow: 0 0 1rem #d80404;
+  box-shadow: 0 0 1.2rem #d80404;
   background-color: #ffc600;
   font-size: 1rem;
   font-family: "Permanent Marker", cursive;
